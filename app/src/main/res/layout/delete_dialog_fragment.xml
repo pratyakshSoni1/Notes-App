@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="270dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/main_colour"
+    app:cardCornerRadius="22dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_colour">
+
+        <ImageView
+            android:id="@+id/deleteDialogIllustrationImage"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_margin="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/delete_illustration" />
+
+        <TextView
+            android:id="@+id/deleDialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="@color/tittle_color"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/deleteDialogIllustrationImage"
+            app:layout_constraintStart_toStartOf="@+id/deleteDialogIllustrationImage"
+            app:layout_constraintTop_toBottomOf="@id/deleteDialogIllustrationImage"
+            tools:text="Delete Notes" />
+
+        <TextView
+            android:id="@+id/deleteDialogMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/ubuntu"
+            android:gravity="center"
+            android:textColor="#515255"
+            android:textSize="14sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/deleDialogTitle"
+            tools:text="Delete selected Notes ?" />
+
+        <Button
+            android:id="@+id/dialogButtonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="32dp"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:backgroundTint="@color/colorButtons"
+            android:textColor="@color/main_colour"
+            android:fontFamily="@font/ubuntu"
+            android:text="@string/deleteDialogBtnDefaultText"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            app:cornerRadius="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/deleteDialogMessage" />
+
+        <Button
+            android:id="@+id/dialogButtonCancel"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="@color/main_colour"
+            android:elevation="0dp"
+            android:fontFamily="@font/ubuntu"
+            android:text="@string/notesEditorCancelSaveBtnText"
+            android:textAllCaps="false"
+            android:textColor="@color/colorButtons"
+            android:textSize="14sp"
+            app:cornerRadius="100dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/dialogButtonDelete"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

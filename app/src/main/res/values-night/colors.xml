@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="appTitle">#FFFFFFFF</color>
+    <color name="main_colour">#0E111A</color>
+    <color name="tittle_color">#CADCFF</color>
+    <color name="content_preview">#727B8B</color>
+    <color name="barsColors">#262D3D</color>
+    <color name="barsColorsVariant">#1F2432</color>
+    <color name="content">#CADCFF</color>
+    <color name="cloroBottomBar">#171C26</color>
+
+
+    <color name="mainColorVariant">#FFFFFF</color>
+
+</resources>

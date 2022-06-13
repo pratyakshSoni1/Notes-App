@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notesHomeOptionName">Notes</string>
+    <string name="newNoteOptionName">Add New</string>
+    <string name="settingOptionName">Profile</string>
+    <string name="settingFragmentTitleName">Notes Setting</string>
+    <string name="resetSettingOptionName">Reset App</string>
+    <string name="themeSettingOptionName">Theme</string>
+    <string name="deleteAllSettingsOptionName">Delete All</string>
+    <string name="formatOptionStrikeThroughIcon">S</string>
+    <string name="formatOptionUnderlineIcon">U</string>
+    <string name="formatOptionItalicIcon">I</string>
+    <string name="formatOptionBoldIcon">B</string>
+    <string name="notesEditorContentHint">Description</string>
+    <string name="notesEditorTitleHint">Title</string>
+    <string name="notesEditorCancelSaveBtnText">Cancel</string>
+    <string name="notesEditorSaveNoteBtnText">Done</string>
+    <string name="noNotesfoundIllustrationText">Create some notes to display\nthem here</string>
+    <string name="noNotesfoundIllustrationTitleText">Nothing here !</string>
+    <string name="searchBarHintText">Search Notes</string>
+    <string name="homeFragmentTitleText">Notes</string>
+    <string name="deleteDialogBtnDefaultText">Delete</string>
+</resources>
